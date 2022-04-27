@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {with text: #2}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/elena/IdeaProjects/qa_guru_12_6/build/reports/tests/1650916810992.0.png\r\nPage source: file:/C:/Users/elena/IdeaProjects/qa_guru_12_6/build/reports/tests/1650916810992.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[contains(normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Хороший тест",
+        "uid" : "673fb0d048a58c28",
+        "parentUid" : "45d4ff3bf2b22792b9ef378d827c3e60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650916783843,
+          "stop" : 1650916811348,
+          "duration" : 27505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45d4ff3bf2b22792b9ef378d827c3e60"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

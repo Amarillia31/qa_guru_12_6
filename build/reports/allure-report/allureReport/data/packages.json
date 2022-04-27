@@ -1,0 +1,51 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.elena",
+    "children" : [ {
+      "name" : "SelenideTest",
+      "children" : [ {
+        "name" : "testGithubIssue",
+        "uid" : "673fb0d048a58c28",
+        "parentUid" : "8a20d55a6075ffd4975ff812b474263f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650916783843,
+          "stop" : 1650916811348,
+          "duration" : 27505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a20d55a6075ffd4975ff812b474263f"
+    }, {
+      "name" : "LambdaStepTest",
+      "children" : [ {
+        "name" : "testGithubIssue",
+        "uid" : "3aea9d6627cc6684",
+        "parentUid" : "eae9edaf7861fccdb3f845657842b323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650919556536,
+          "stop" : 1650919571250,
+          "duration" : 14714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eae9edaf7861fccdb3f845657842b323"
+    } ],
+    "uid" : "com.elena"
+  } ]
+}

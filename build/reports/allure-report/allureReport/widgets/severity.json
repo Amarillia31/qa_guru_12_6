@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3aea9d6627cc6684",
+  "name" : "testGithubIssue()",
+  "time" : {
+    "start" : 1650919556536,
+    "stop" : 1650919571250,
+    "duration" : 14714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "673fb0d048a58c28",
+  "name" : "Хороший тест",
+  "time" : {
+    "start" : 1650916783843,
+    "stop" : 1650916811348,
+    "duration" : 27505
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+} ]

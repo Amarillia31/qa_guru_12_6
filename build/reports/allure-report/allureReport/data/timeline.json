@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-7I6A7RKN",
+    "children" : [ {
+      "name" : "8728@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "testGithubIssue()",
+        "uid" : "3aea9d6627cc6684",
+        "parentUid" : "736800718031f6a462659d99963365d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650919556536,
+          "stop" : 1650919571250,
+          "duration" : 14714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "736800718031f6a462659d99963365d6"
+    }, {
+      "name" : "1300@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "Хороший тест",
+        "uid" : "41820bce95bcb94e",
+        "parentUid" : "f8b44aabc8a1283762667a0345fd4c15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650915345850,
+          "stop" : 1650915353066,
+          "duration" : 7216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8b44aabc8a1283762667a0345fd4c15"
+    }, {
+      "name" : "18308@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "testGithubIssue()",
+        "uid" : "6d4d4d0b3f2cd008",
+        "parentUid" : "2f3d9cd9338ba3c6ee25b08fa85f15f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650919355055,
+          "stop" : 1650919367419,
+          "duration" : 12364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f3d9cd9338ba3c6ee25b08fa85f15f2"
+    }, {
+      "name" : "19940@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "Хороший тест",
+        "uid" : "1e5aa123d162825d",
+        "parentUid" : "65ed7cf36080aa690d0499482606eae6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650915216335,
+          "stop" : 1650915264725,
+          "duration" : 48390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65ed7cf36080aa690d0499482606eae6"
+    }, {
+      "name" : "4312@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "testGithubIssue()",
+        "uid" : "31c64546e209a17d",
+        "parentUid" : "5a2d7b628c107977d73d4a486b3431bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650919235244,
+          "stop" : 1650919260609,
+          "duration" : 25365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a2d7b628c107977d73d4a486b3431bc"
+    }, {
+      "name" : "12704@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "Хороший тест",
+        "uid" : "673fb0d048a58c28",
+        "parentUid" : "4e8d40156db2bca32b4915c2f9b8968a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650916783843,
+          "stop" : 1650916811348,
+          "duration" : 27505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e8d40156db2bca32b4915c2f9b8968a"
+    }, {
+      "name" : "5432@LAPTOP-7I6A7RKN.Test worker(22)",
+      "children" : [ {
+        "name" : "Хороший тест",
+        "uid" : "4cf9606c2e1868bc",
+        "parentUid" : "6d2f3b4d7c56367e42a91eac9aae1295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650914616965,
+          "stop" : 1650914636951,
+          "duration" : 19986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d2f3b4d7c56367e42a91eac9aae1295"
+    } ],
+    "uid" : "97a32a0e4c415472fbebca7294bb92f9"
+  } ]
+}

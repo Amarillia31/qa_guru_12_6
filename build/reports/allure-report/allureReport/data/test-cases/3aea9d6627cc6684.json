@@ -1,0 +1,286 @@
+{
+  "uid" : "3aea9d6627cc6684",
+  "name" : "testGithubIssue()",
+  "fullName" : "com.elena.LambdaStepTest.testGithubIssue",
+  "historyId" : "5075d64233cba684e1e88903c9787aeb",
+  "time" : {
+    "start" : 1650919556536,
+    "stop" : 1650919571250,
+    "duration" : 14714
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open main page",
+      "time" : {
+        "start" : 1650919556583,
+        "stop" : 1650919566770,
+        "duration" : 10187
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://github.com",
+        "time" : {
+          "start" : 1650919556724,
+          "stop" : 1650919566770,
+          "duration" : 10046
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1650919556724,
+            "stop" : 1650919560273,
+            "duration" : 3549
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Find repository Amarillia31/qa_guru_12_6",
+      "time" : {
+        "start" : 1650919566770,
+        "stop" : 1650919567709,
+        "duration" : 939
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".header-search-input\") click()",
+        "time" : {
+          "start" : 1650919566807,
+          "stop" : 1650919566928,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".header-search-input\") send keys(Amarillia31/qa_guru_12_6)",
+        "time" : {
+          "start" : 1650919566928,
+          "stop" : 1650919566988,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".header-search-input\") submit()",
+        "time" : {
+          "start" : 1650919566988,
+          "stop" : 1650919567709,
+          "duration" : 721
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on repositoryAmarillia31/qa_guru_12_6",
+      "time" : {
+        "start" : 1650919567709,
+        "stop" : 1650919570640,
+        "duration" : 2931
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Amarillia31/qa_guru_12_6\") click()",
+        "time" : {
+          "start" : 1650919567709,
+          "stop" : 1650919570640,
+          "duration" : 2931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on tab issues",
+      "time" : {
+        "start" : 1650919570640,
+        "stop" : 1650919570719,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.partialLinkText: Issues\") click()",
+        "time" : {
+          "start" : 1650919570641,
+          "stop" : 1650919570719,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check issue number1",
+      "time" : {
+        "start" : 1650919570720,
+        "stop" : 1650919571240,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"with text: #1\") click()",
+        "time" : {
+          "start" : 1650919570727,
+          "stop" : 1650919571240,
+          "duration" : 513
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.elena.LambdaStepTest]/[method:testGithubIssue()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7I6A7RKN"
+  }, {
+    "name" : "thread",
+    "value" : "8728@LAPTOP-7I6A7RKN.Test worker(22)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.elena.LambdaStepTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.elena.LambdaStepTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGithubIssue"
+  }, {
+    "name" : "suite",
+    "value" : "com.elena.LambdaStepTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d4d4d0b3f2cd008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650919355055,
+        "stop" : 1650919367419,
+        "duration" : 12364
+      }
+    }, {
+      "uid" : "31c64546e209a17d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650919235244,
+        "stop" : 1650919260609,
+        "duration" : 25365
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aea9d6627cc6684.json",
+  "parameterValues" : [ ]
+}

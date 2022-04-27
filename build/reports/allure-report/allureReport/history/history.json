@@ -1,0 +1,41 @@
+{
+  "418e767aba887fcb0e144183f1dd5304" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "673fb0d048a58c28",
+      "status" : "failed",
+      "statusDetails" : "Element not found {with text: #2}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/elena/IdeaProjects/qa_guru_12_6/build/reports/tests/1650916810992.0.png\r\nPage source: file:/C:/Users/elena/IdeaProjects/qa_guru_12_6/build/reports/tests/1650916810992.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[contains(normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1650916783843,
+        "stop" : 1650916811348,
+        "duration" : 27505
+      }
+    } ]
+  },
+  "5075d64233cba684e1e88903c9787aeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3aea9d6627cc6684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650919556536,
+        "stop" : 1650919571250,
+        "duration" : 14714
+      }
+    } ]
+  }
+}

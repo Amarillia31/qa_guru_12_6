@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.elena.SelenideTest",
+    "children" : [ {
+      "name" : "Хороший тест",
+      "uid" : "673fb0d048a58c28",
+      "parentUid" : "a3b7d7d9993d626f13e1a4503774e235",
+      "status" : "failed",
+      "time" : {
+        "start" : 1650916783843,
+        "stop" : 1650916811348,
+        "duration" : 27505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a3b7d7d9993d626f13e1a4503774e235"
+  }, {
+    "name" : "com.elena.LambdaStepTest",
+    "children" : [ {
+      "name" : "testGithubIssue()",
+      "uid" : "3aea9d6627cc6684",
+      "parentUid" : "e6b04654d0d01d6c11d70d86bb78e7d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650919556536,
+        "stop" : 1650919571250,
+        "duration" : 14714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6b04654d0d01d6c11d70d86bb78e7d4"
+  } ]
+}
